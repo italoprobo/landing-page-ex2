@@ -56,7 +56,7 @@
 #subscription-form {
     background-color: var(--secondary);
     padding: 2em;
-    max-width: 22%;
+    max-width: 20%;
 }
 
 #subscription-form p {
