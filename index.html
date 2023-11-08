@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade</title>
+
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2 data-aos="fade-right" data-aos-delay="300">Nome da Faculdade</h2>
+            <p data-aos="fade-right" data-aos-delay="400" class="about-event">
+                Direito, Negócios e Tecnologia
+            </p>
+            <p data-aos="fade-right" data-aos-delay="500">Eventos:</p>
+            <p data-aos="fade-right" data-aos-delay="600" class="event-date">Dias 1, 2 e 3 de março</p>
+        </div>
+        <div data-aos="fade-right"  id="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" placeholder="Número de Whatsapp">
+            </div>
+            <div class="form-group">
+                <label for="interest">Principal interesse</label>
+                <select name="interest">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="direito" >Direito</option>
+                    <option value="tecnologia" >Tecnologia</option>
+                    <option value="negocios" >Negócios</option>
+                </select>
+            </div>
+            <input type="submit" class="btn" value="Quero me inscrever">
+        </div>
+    </header>
+
+    <section id="key-benefits">
+        <h2>O que você vai aprender:</h2>
+        <div data-aos="fade-up" data-aos-delay="150" class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>Tecnologia da Informação</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="250" class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>Direito Trabalhista</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>Marketing e Negocios</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+                <p>Rua Noé Fortes 810</p>
+                <p>Bairro São Cristóvão</p>
+                <p>Abertura: 7h</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Local de destaque</h3>
+            <p>
+                O evento será realizado na Faculdade que oferece uma ampla variedade de cursos de graduação e pós-graduação.
+            </p>
+        </div>
+    </section>
+
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/palestra-ambiente.png" alt="">
+            <div class="detail-description">
+                <h3>Conheça o ambiente que você vai aprender</h3>
+            </div>
+        </div>
+        <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Palestrantes</h3>
+                <ul>
+                    <li>Tábata Amaral</li>
+                    <li>Rodrigo Mesquita</li>
+                    <li>Flávio Tartuce</li>
+                    <li>Thainá Mariani</li>
+                    <li>E varios outros...</li>
+                </ul>
+            </div>
+            <img src="img/palestra.png" alt="">
+        </div>
+        <div class="detail" id="detail-3">
+            <img src="img/networking.png" alt="">
+            <div class="detail-description">
+                <h3>Vantagens</h3>
+                <ul>
+                    <li>Networking</li>
+                    <li>Inovação</li>
+                    <li>Novidades</li>
+                    <li>Oportunidades</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <h3>Gostou? Então se inscreva:</h3>
+        <button class="btn">Solicitar inscrição</button>
+    </section>
+
+    <footer id="footer">
+        <h3>Faculdade</h3>
+        <p>Direito, Negócios e Tecnologia</p>
+        <p><span>Entre em contato:</span> italoprobo@gmail.com</p>
+        <p><span>Telefone:</span> (86) 98186-1207</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
